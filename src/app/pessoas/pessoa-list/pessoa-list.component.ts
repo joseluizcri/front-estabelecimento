@@ -3,8 +3,7 @@ import { PessoaService } from '../pessoa.service';
 
 @Component({
   selector: 'app-pessoa-list',
-  templateUrl: './pessoa-list.component.html',
-  styleUrls: ['./pessoa-list.component.css']
+  templateUrl: './pessoa-list.component.html'
 })
 export class PessoaListComponent implements OnInit {
 
